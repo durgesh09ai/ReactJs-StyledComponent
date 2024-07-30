@@ -1,0 +1,7 @@
+There are 2 methods to go for PPT to Image/PDF in Python 
+
+First Method : Commercial Python library named as aspose.slides.
+              Aspose.Slides is a powerful library for working with PowerPoint files in Python. 
+              It provides comprehensive functionality for creating, reading, manipulating, and converting PowerPoint presentations (both PPT and PPTX formats)
+
+Second Method : Using LibreOffice in Headless Mode - You can use LibreOffice in headless mode directly. This requires LibreOffice to be installed on your system. You can call LibreOffice from the command line or from within a Python script.
