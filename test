@@ -1,4 +1,4 @@
-To covert PPT to images ,we have decided to do it at server side usig pytho. As we already doing processing(sendng the image to the cloud and Digitalization) 
+To covert PPT to images ,we have decided to do it at server side using python. As we already doing processing(sendng the image to the cloud and Digitalization) 
 of imges/pDF at server side using Python
 There are coupal of approches are there to convert PPT to images 
 First Method : Commercial Python library named as aspose.slides.
