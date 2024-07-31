@@ -1,10 +1,13 @@
-There are 2 methods to go for PPT to Image/PDF in Python 
-
+To covert PPT to images ,we have decided to do it at server side usig pytho. As we already doing processing(sendng the image to the cloud and Digitalization) 
+of imges/pDF at server side using Python
+There are coupal of approches are there to convert PPT to images 
 First Method : Commercial Python library named as aspose.slides.
               Aspose.Slides is a powerful library for working with PowerPoint files in Python. 
               It provides comprehensive functionality for creating, reading, manipulating, and converting PowerPoint presentations (both PPT and PPTX formats)
 
-Second Method : Using LibreOffice in Headless Mode - You can use LibreOffice in headless mode directly. This requires LibreOffice to be installed on your system. You can call LibreOffice from the command line or from within a Python script.
+Second Method : Using LibreOffice in Headless Mode - You can use LibreOffice in headless mode directly. This requires LibreOffice to be installed on your system.
+You can call LibreOffice from the command line or from within a Python script.
 
+3rd : Using sme python Library as python-pptx Com interop , Unfortunatly these library directly does not convert the ppt to images,
+They are using Exernal and tools and library to achive this.
 
-calculate the total image size of all the upload images, 2. total size >20 mb, show pop up message 3. Unchecked the newly uploaded images 4. show the popup message when user try to check the image every time  if total size >20mb  
