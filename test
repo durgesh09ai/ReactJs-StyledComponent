@@ -11,3 +11,9 @@ You can call LibreOffice from the command line or from within a Python script.
 3rd : Using sme python Library as python-pptx Com interop , Unfortunatly these library directly does not convert the ppt to images,
 They are using Exernal and tools and library to achive this.
 
+Slide notes in a PowerPoint presentation are not part of the slide itself; rather, they are metadata associated with a slide.
+Slide Content: This includes the elements you see on the slide during a presentation, such as text, images, charts, and other visual elements.
+Slide Notes: These are additional notes that a presenter can use to refer to during a presentation. 
+They are typically not visible to the audience when the slide is shown, but can be viewed in "Presenter View" or printed out as part of a notes page.
+In most libraries or tools for working with PPT files programmatically, slide content and slide notes are accessed separately.
+If you're converting slides to images, typically only the visible content of the slide is included in the image, not the slide notes.
