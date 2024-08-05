@@ -37,3 +37,14 @@ Aspose.Slides can render the appearance of the slide at a specific point in time
 
 It does not directly support converting animations into animated images.To create an animated sequence (like a GIF),
 you'd need to manually handle the animation frames and stitch them together.
+
+USING LibreOffice 
+
+For Slides Notes: 
+
+Using LibreOffice converting slide notes into images along with slides directly is not natively supported in LibreOffice through command-line tools.
+
+For Animated PPTX:
+
+LibreOffice itself does not support exporting animations from slides directly into images.
+When you export a presentation slide to an image format using LibreOffice, the image will be a static snapshot of the slide without any of the animations.
