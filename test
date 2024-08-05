@@ -17,3 +17,23 @@ Slide Notes: These are additional notes that a presenter can use to refer to dur
 They are typically not visible to the audience when the slide is shown, but can be viewed in "Presenter View" or printed out as part of a notes page.
 In most libraries or tools for working with PPT files programmatically, slide content and slide notes are accessed separately.
 If you're converting slides to images, typically only the visible content of the slide is included in the image, not the slide notes.
+--------------------------------------
+
+USING Aspose.Slides
+
+For Slides Notes: 
+
+We can convert the slide notes of a PowerPoint presentation into an image format using Aspose.Slides . 
+As the notes will be placed at the bottom of the slide, but if the content of the notes is too large to fit,
+it will be truncated (cut off) to avoid overflowing onto the next page or out of the image bounds.
+
+AS i am using free version of Library The truncation of text notes in your output is likely due to the evaluation limitation of the libraries
+, specifically Aspose.Slides, which imposes certain restrictions on the amount of data to process.
+
+For Animated PPTX:
+
+We can also convert animated slides into images using Aspose.Slides, but the images generated will be static.
+Aspose.Slides can render the appearance of the slide at a specific point in time, but it does not render the animations or transitions as they play out.
+
+It does not directly support converting animations into animated images.To create an animated sequence (like a GIF),
+you'd need to manually handle the animation frames and stitch them together.
