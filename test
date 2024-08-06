@@ -48,3 +48,36 @@ For Animated PPTX:
 
 LibreOffice itself does not support exporting animations from slides directly into images.
 When you export a presentation slide to an image format using LibreOffice, the image will be a static snapshot of the slide without any of the animations.
+
+
+Subject: Analysis of PowerPoint Slide Conversion Methods
+
+Dear ABC,
+
+I hope this message finds you well.
+
+After conducting a thorough analysis using two variants of PowerPoint presentations, I wanted to share the findings related to the conversion of slide notes and animated slides using both Aspose.Slides and LibreOffice.
+
+Using Aspose.Slides:
+1. Slide Notes:
+Aspose.Slides supports converting slide notes into image format. The notes are placed at the bottom of the slide, but it's important to note that if the content of the notes exceeds the available space, it will be truncated. This limitation is likely due to the evaluation version of the library, which imposes restrictions on the amount of data processed.
+
+2. Animated Slides:
+Aspose.Slides can convert animated slides into images, but the output will be static. While it can render the appearance of the slide at a specific point in time, it does not support the conversion of animations or transitions into animated images like GIFs. Creating an animated sequence would require manually handling each animation frame.
+
+Using LibreOffice:
+1. Slide Notes:
+LibreOffice does not natively support converting slide notes into images. While it can export slides to image format, the slide notes are not included in this export.
+
+2. Animated Slides:
+Similarly, LibreOffice does not support exporting animations from slides into images. The output will be a static snapshot of the slide without any animations.
+
+Conclusion:
+After evaluating the capabilities of both tools and considering the pricing of Aspose.Slides, which is quite high, we have decided to proceed with the LibreOffice method despite its lack of support for slide note functionality. This approach offers a more cost-effective solution while still meeting the basic requirements.
+
+Please let me know if you have any further questions or if there are additional considerations you'd like to discuss.
+
+Thank you for your attention to this matter. I look forward to your feedback.
+
+Best regards,
+
